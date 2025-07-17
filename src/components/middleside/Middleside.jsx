@@ -10,7 +10,7 @@ import WorkHistory from './WorkHistory';
 import Portfolio from './Portfolio';
 import Blog from './Blog';
 import Contact from './Contact';
-import Map from './map';
+import Map from './Map';
 import Refs from './Refs';
 
 const Middleside = () => {
