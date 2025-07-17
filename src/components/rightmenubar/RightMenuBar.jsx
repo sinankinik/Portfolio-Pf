@@ -19,7 +19,7 @@ const RightMenuBar = () => {
         { src: message, alt: 'message', link: '/', text : 'Message' },
     ];
     return (
-        <div className='bg-white w-[102.44px] pt-[49.32px]'>
+        <div className='bg-white w-[102.44px] h-[1247.43px] pt-[49.32px]'>
             <img src="/img/darkmode.svg" className='mx-auto mb-[201.09px]' />
             <MenuIcons icons={icons} />
         </div>
