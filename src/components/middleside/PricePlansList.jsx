@@ -21,7 +21,7 @@ const PricePlansList = ({ limit = 0 }) => {
         <ul className="text-[14.23px]">
           {listItems.map((item, index) => {
             const isAvailable = index < limit;
-            const textColor = isAvailable ? 'text-primary' : 'text-third';
+            const textColor = isAvailable ? 'text-primary dark:text-white ' : 'text-third';
             const icon = isAvailable ? OkayImg : NopeImg;
 
             return (

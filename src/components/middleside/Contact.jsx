@@ -4,31 +4,31 @@ const Contact = () => {
     return (
         <div className='grid grid-cols-2 w-[920.07px] font-inter ml-[28.46px] mb-[67.35px]'>
             <div className='col-span-1 w-[540.66px]'>
-                <h2 className='font-bold text-primary text-[30.35px] mb-[47.37px]'>Leave us your info</h2>
-                <div className='bg-white pb-[23.71px] mb-[17.07px]'>
+                <h2 className='font-bold text-primary dark:text-white  text-[30.35px] mb-[47.37px]'>Leave us your info</h2>
+                <div className='bg-white dark:bg-darkprimary  pb-[23.71px] mb-[17.07px]'>
                     <div className='p-[23.71px] text-third font-medium text-[17.07px]'>
                         <h3 className='mb-[7.46px]'>Your Full Name ( Required)</h3>
                         <input type="text" className='bg-[#F0F0F6] w-[494.18px] h-[47.43px] mb-[p23.71x]' />
                     </div>
-                    <div className='bg-white p-[23.71px] text-third font-medium text-[17.07px]'>
+                    <div className='bg-white dark:bg-darkprimary  p-[23.71px] text-third font-medium text-[17.07px]'>
                         <h3 className='mb-[7.46px]'>Your Email ( Required)</h3>
                         <input type="text" className='bg-[#F0F0F6] w-[494.18px] h-[47.43px] mb-[p23.71x]' />
                     </div>
-                    <div className='bg-white p-[23.71px] text-third font-medium text-[17.07px]'>
+                    <div className='bg-white dark:bg-darkprimary  p-[23.71px] text-third font-medium text-[17.07px]'>
                         <h3 className='mb-[7.46px]'>Subject</h3>
                         <input type="text" className='bg-[#F0F0F6] w-[494.18px] h-[47.43px] mb-[p23.71x]' />
                     </div>
-                    <div className='bg-white p-[23.71px] text-third font-medium text-[17.07px]'>
+                    <div className='bg-white dark:bg-darkprimary  p-[23.71px] text-third font-medium text-[17.07px]'>
                         <h3 className='mb-[7.46px]'>Your Message</h3>
                         <input type="text" className='bg-[#F0F0F6] w-[494.18px] h-[199.19px] mb-[p23.71x]' />
                     </div>
-                    <button className='bg-secondary flex justify-center items-center w-[150.82px] h-[33.2px] ml-[23.71px] font-semibold text-[13.28px]'>SEND MESSAGE</button>
+                    <button className='bg-secondary dark:bg-darksecondary  flex justify-center items-center w-[150.82px] h-[33.2px] ml-[23.71px] font-semibold text-[13.28px]'>SEND MESSAGE</button>
                 </div>
             </div>
             <div className='col-span-1 w-[350.96px] ml-[110px]'>
-                <h2 className='font-bold text-primary text-[30.35px]'>Contact information</h2>
-                <div className='bg-white w-[350.96px] h-[209px] mt-[47.37px] pt-[23.71px] font-inter font-medium text-[17.07px] text-third'>
-                    <div className='bg-secondary flex justify-center items-center w-[37.94px] h-[37.94px] rounded-full ml-[156.51px]'>
+                <h2 className='font-bold text-primary dark:text-white  text-[30.35px]'>Contact information</h2>
+                <div className='bg-white dark:bg-darkprimary  w-[350.96px] h-[209px] mt-[47.37px] pt-[23.71px] font-inter font-medium text-[17.07px] text-third'>
+                    <div className='bg-secondary dark:bg-darksecondary  flex justify-center items-center w-[37.94px] h-[37.94px] rounded-full ml-[156.51px]'>
                         <img src="/img/contacticon2.svg" alt="" />
                     </div>
                     <div className='flex justify-between mt-[29.4px] mx-[23.71px] mb-3'>
@@ -44,8 +44,8 @@ const Contact = () => {
                         <h3 className='font-normal text-[14.23px]'>35 vhatara, Badda</h3>
                     </div>
                 </div>
-                <div className='bg-white w-[350.96px] h-[209px] mt-[47.37px] pt-[23.71px] font-inter font-medium text-[17.07px] text-third'>
-                    <div className='bg-secondary flex justify-center items-center w-[37.94px] h-[37.94px] rounded-full ml-[156.51px]'>
+                <div className='bg-white dark:bg-darkprimary  w-[350.96px] h-[209px] mt-[47.37px] pt-[23.71px] font-inter font-medium text-[17.07px] text-third'>
+                    <div className='bg-secondary dark:bg-darksecondary  flex justify-center items-center w-[37.94px] h-[37.94px] rounded-full ml-[156.51px]'>
                         <img src="/img/contacticon1.svg" alt="" />
                     </div>
                     <div className='flex justify-between mt-[29.4px] mx-[23.71px] mb-3'>
@@ -61,8 +61,8 @@ const Contact = () => {
                         <h3 className='font-normal text-[14.23px]'>@yourusername</h3>
                     </div>
                 </div>
-                <div className='bg-white w-[350.96px] h-[209px] mt-[47.37px] pt-[23.71px] font-inter font-medium text-[17.07px] text-third'>
-                    <div className='bg-secondary flex justify-center items-center w-[37.94px] h-[37.94px] rounded-full ml-[156.51px]'>
+                <div className='bg-white dark:bg-darkprimary w-[350.96px] h-[209px] mt-[47.37px] pt-[23.71px] font-inter font-medium text-[17.07px] text-third'>
+                    <div className='bg-secondary dark:bg-darksecondary  flex justify-center items-center w-[37.94px] h-[37.94px] rounded-full ml-[156.51px]'>
                         <img src="/img/contacticon2.svg" alt="" />
                     </div>
                     <div className='flex justify-between mt-[29.4px] mx-[23.71px] mb-3'>

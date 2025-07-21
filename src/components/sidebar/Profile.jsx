@@ -24,7 +24,7 @@ const Profile = () => {
                 <div className='w-[142.28px] h-[142.28px]'>
                     <img src="/img/pp.png" alt="Profile Picture" className='w-[142.28px] h-[142.28px]' />
                 </div>
-                <h3 className='font-medium text-[18px] text-primary mt-[29.41px]'>Rayan Adlardard</h3>
+                <h3 className='font-medium text-[18px] text-primary dark:text-white  mt-[29.41px]'>Rayan Adlardard</h3>
                 <h4 className='font-normal text-third text-sm mt-[14.1px]'>Front-end Developer</h4>
             </div>
             <div className='w-[207.73px] h-[22.76px] mt-3.5'>

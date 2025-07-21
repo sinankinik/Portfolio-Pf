@@ -16,9 +16,9 @@ const BlogItems = () => {
     return (
         <div className='grid grid-cols-3 gap-x-[18.97px] mt-[47.43px]'>
             {items.map((item, index) => (
-                <div key={index} className='font-inter font-medium text-[17.07px] text-primary'>
+                <div key={index} className='font-inter font-medium text-[17.07px] text-primary dark:text-white '>
                     <img src={item.src} className='w-[294.04px] h-[284.56px]' />
-                    <div className='bg-white w-[294.04px] p-[23.71px] font-inter font-medium text-primary text-[17.07px]'>
+                    <div className='bg-white dark:bg-darkprimary  w-[294.04px] p-[23.71px] font-inter font-medium text-primary dark:text-white  text-[17.07px]'>
                         <h2 className='capitalize'>{item.caption}</h2>
                         <p className='w-[254.21px] mt-[7.46px] font-normal text-[14.23px] text-third'>{item.text}</p>
                         <div className='mt-[8.94px] text-secondary'>
