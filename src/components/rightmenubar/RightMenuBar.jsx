@@ -18,19 +18,19 @@ import lightmodeIcon from '/img/lightmode.png'; // Dark mode ikonu
 const RightMenuBar = ({ isDarkMode, toggleDarkMode }) => {
 
     const icons = [
-        { src: home, alt: 'home', link: '/', text : 'Home' },
-        { src: cvmenu, alt: 'cvmenu', link: '/', text : 'CV' },
-        { src: education, alt: 'education', link: '/', text : 'Education' },
-        { src: works, alt: 'works', link: '/', text : 'Works' },
-        { src: mail, alt: 'mail', link: '/', text : 'E-Mail' },
-        { src: message, alt: 'message', link: '/', text : 'Message' },
+        { src: home, alt: 'home', link: '#home-section', text: 'Home' },
+        { src: message, alt: 'services', link: '#services-section', text: 'My Services' },
+        { src: cvmenu, alt: 'cvmenu', link: '#workhistory-section', text: 'CV' },
+        { src: education, alt: 'education', link: '#education-section', text: 'Education' },
+        { src: works, alt: 'works', link: '#portfolio-section', text: 'Works' },
+        { src: mail, alt: 'message', link: '#contact-section', text: 'Message' },
     ];
     return (
         <div className='bg-white hidden xl:block dark:bg-darkprimary w-[102.44px] h-[1247.43px] pt-[49.32px]'>
-            <img 
+            <img
                 src={isDarkMode ? lightmodeIcon : darkmodeIcon}
-                alt="Dark Mode Toggle" 
-                className='mx-auto mb-[201.09px] cursor-pointer w-6 h-6' 
+                alt="Dark Mode Toggle"
+                className='mx-auto mb-[201.09px] cursor-pointer w-6 h-6'
                 onClick={toggleDarkMode}
             />
             <MenuIcons icons={icons} />

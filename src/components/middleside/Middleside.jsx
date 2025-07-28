@@ -17,18 +17,18 @@ import Refs from './Refs';
 const Middleside = () => {
     return (
         <div>
-            <Slider />
-            <MyServices />
-            <PricePlans />
-            <Recommendations />
-            <Education />
-            <WorkHistory />
-            <Portfolio />
-            <Blog />
-            <Contact />
-            <Map />
-            <Refs />
-            <Footer />
+            <div id="home-section"><Slider /></div>
+            <div id="services-section"><MyServices /></div>
+            <div id="priceplans-section"><PricePlans /></div>
+            <div id="recommendations-section"><Recommendations /></div>
+            <div id="education-section"><Education /></div>
+            <div id="workhistory-section"><WorkHistory /></div>
+            <div id="portfolio-section"><Portfolio /></div>
+            <div id="blog-section"><Blog /></div>
+            <div id="contact-section"><Contact /></div>
+            <div id="map-section"><Map /></div>
+            <div id="refs-section"><Refs /></div>
+            <div id="footer-section"><Footer /></div>
         </div>
     )
 }
