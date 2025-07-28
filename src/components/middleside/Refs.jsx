@@ -15,9 +15,9 @@ const Refs = () => {
 
     ]
     return (
-        <div className='flex justify-between items-center w-[920.07px] ml-[28.46px] mb-[66.4px]'>
+        <div className='grid grid-cols-2 md:grid-cols-4 justify-between items-center w-[350px] sm:w-[610px] md:w-[920.07px] ml-[28.46px] mb-[66.4px]'>
             {items.map((item, index) => (
-                <img src={item.src} alt={item.alt} />
+                <img src={item.src} alt={item.alt} key={index} />
             ))}
         </div>
     )

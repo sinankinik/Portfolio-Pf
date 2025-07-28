@@ -5,12 +5,12 @@ import OrderNowButton from './OrderNowButton'
 const PricePlans = () => {
 
     return (
-        <div className='grid grid-cols-1 justify-items-center font-inter mt-[66.4px] font-normal text-[14.23px] text-third mb-[66.4px]'>
+        <div className='grid grid-cols-1 justify-items-start md:justify-items-center font-inter mt-[66.4px] font-normal text-[14.23px] text-third mb-[66.4px]'>
             <h2 className='text-primary dark:text-white  font-bold text-[30.35px]'>Price Plans</h2>
             <p className='mt-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
             <p>Do amet sint. Velit officia consequat duis enim velit mollit.</p>
             <p>Lorem ipsum</p>
-            <div className='grid grid-cols-3 gap-x-[19.92px]'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[19.92px]'>
                 <div className='bg-white dark:bg-darkprimary w-[294.04px] h-[577.65px] font-inter font-normal text-third text-[14.23px] pt-[51.22px] mt-[47.43px]'>
                     <h2 className='font-semibold text-primary dark:text-white  ml-[115.72px]'>Silver</h2>
                     <div className='flex items-center text-primary dark:text-white '>

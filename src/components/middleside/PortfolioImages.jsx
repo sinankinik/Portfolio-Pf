@@ -25,7 +25,7 @@ const PortfolioImages = () => {
     ];
 
     return (
-        <div className='grid grid-cols-3 gap-[18.97px]'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-[18.97px]'>
             {items.map((item, index) => (
                 <div key={index} className='font-inter font-medium text-[17.07px] text-primary dark:text-white '>
                     <img src={item.src} alt={item.alt} className='w-[294.04px] h-[284.56px]' />

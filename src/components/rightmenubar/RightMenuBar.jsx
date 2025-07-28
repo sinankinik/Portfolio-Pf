@@ -26,7 +26,7 @@ const RightMenuBar = ({ isDarkMode, toggleDarkMode }) => {
         { src: message, alt: 'message', link: '/', text : 'Message' },
     ];
     return (
-        <div className='bg-white dark:bg-darkprimary w-[102.44px] h-[1247.43px] pt-[49.32px]'>
+        <div className='bg-white hidden xl:block dark:bg-darkprimary w-[102.44px] h-[1247.43px] pt-[49.32px]'>
             <img 
                 src={isDarkMode ? lightmodeIcon : darkmodeIcon}
                 alt="Dark Mode Toggle" 

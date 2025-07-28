@@ -8,9 +8,9 @@ const WorkHistoryItems = () => {
     ];
 
     return (
-        <div className="w-[920.07px] bg-white dark:bg-darkprimary mt-[48.37px] pt-[48.37px] px-[35.1px] font-inter text-third font-normal text-[9.49px]">
+        <div className="w-[350px] sm:w-[610px] md:w-[920.07px] bg-white dark:bg-darkprimary mt-[48.37px] pt-[48.37px] px-[35.1px] font-inter text-third font-normal text-[9.49px]">
             {items.map((item, index) => (
-                <div className='flex mb-[26.56px] border-b pb-[10.43px]'>
+                <div key={index} className='flex mb-[26.56px] border-b pb-[10.43px]'>
                     <div className=''>
                         <h2 className='font-medium text-primary dark:text-white  text-[17.07px]'>{item.work}</h2>
                         <div className='flex w-[200px] items-center pt-[26.43px]'>

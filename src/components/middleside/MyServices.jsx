@@ -19,7 +19,7 @@ const MyServices = () => {
         { src: advertisign, alt: 'advertisign', link: '/', caption: 'Advertising', text: 'Lorem Ipsum Dolor Sit Amet', w: "70.19px", h: "65.8px" },
     ];
     return (
-        <div className='grid grid-cols-1 justify-items-center font-inter mt-[130.81px] font-normal text-[14.23px] text-third'>
+        <div className='grid grid-cols-1 justify-items-start md:justify-items-start md:justify-items-center font-inter mt-[130.81px] font-normal text-[14.23px] text-third'>
             <h2 className='text-primary dark:text-white  font-bold text-[30.35px]'>My Services</h2>
             <p className='mt-6'>Amet minim mollit non deserunt ullamco est sit aliqua dolor</p>
             <p>Do amet sint. Velit officia consequat duis enim velit mollit.</p>

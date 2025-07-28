@@ -13,10 +13,10 @@ const RecommendationsItems = () => {
     ];
 
     return (
-        <div className="grid grid-cols-3 gap-x-[19.92px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-[19.92px]">
             {items.map((item, index) => (
-                <div className='bg-white dark:bg-darkprimary w-[294.04px] h-[306.38px] font-inter font-normal text-third text-[14.23px] p-[23.71px] mt-[47.43px]'>
-                    <div key={index}>
+                <div key={index} className='bg-white dark:bg-darkprimary w-[294.04px] h-[306.38px] font-inter font-normal text-third text-[14.23px] p-[23.71px] mt-[47.43px]'>
+                    <div >
                         <img src="/img/stars.svg" />
                         <h3 className='mt-[15.71px] mb-[16.94px] font-medium text-primary dark:text-white  text-[17.07px]'>{item.caption}</h3>
                         <p className='capitalize'>{item.text}</p>

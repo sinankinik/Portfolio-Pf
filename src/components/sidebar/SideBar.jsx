@@ -8,7 +8,7 @@ import CvButton from './CvButton'
 
 const SideBar = () => {
     return (
-        <div className='bg-white dark:bg-darkprimary w-[289.3px] h-[1247.32px] font-inter pt-12'>
+        <div className='bg-white hidden lg:block dark:bg-darkprimary w-[289.3px] h-[1247.32px] font-inter pt-12'>
             <Profile />
             <PersonalInfo />
             <Languages />

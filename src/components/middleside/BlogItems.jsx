@@ -14,7 +14,7 @@ const BlogItems = () => {
     ]
 
     return (
-        <div className='grid grid-cols-3 gap-x-[18.97px] mt-[47.43px]'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-x-[18.97px] mt-[47.43px]'>
             {items.map((item, index) => (
                 <div key={index} className='font-inter font-medium text-[17.07px] text-primary dark:text-white '>
                     <img src={item.src} className='w-[294.04px] h-[284.56px]' />

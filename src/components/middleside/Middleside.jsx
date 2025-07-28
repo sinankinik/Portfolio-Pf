@@ -1,7 +1,6 @@
 import React from 'react'
 
-// Klasör yapınıza göre bu import yollarını kontrol edin ve gerekirse düzeltin.
-// Örnek: import Slider from "../slider/Slider";
+
 import Slider from "./Slider";
 import MyServices from "./MyServices";
 import PricePlans from "./PricePlans";

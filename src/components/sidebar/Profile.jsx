@@ -19,7 +19,7 @@ const Profile = () => {
     ];
 
     return (
-        <div className='grid justify-items-center content-start w-full'>
+        <div className='grid justify-items-start md:justify-items-center content-start w-full'>
             <div className=''>
                 <div className='w-[142.28px] h-[142.28px]'>
                     <img src="/img/pp.png" alt="Profile Picture" className='w-[142.28px] h-[142.28px]' />
