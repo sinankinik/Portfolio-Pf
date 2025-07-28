@@ -1,9 +1,14 @@
 import React from 'react'
 
+import { useTranslation } from 'react-i18next';
+
 const Skills = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className='w-[208.65px] mx-auto mt-6 ml-[38px] border-b-2 pb-[23.71px]'>
-            <h2 className='font-medium text-[18px]'>Skills</h2>
+            <h2 className='font-medium text-[18px]'>{t('skills')}</h2>
             <div className='mt-2.5 text-third font-normal text-base'>
                 <div className='flex justify-between'>
                     <h3>HTML</h3>
